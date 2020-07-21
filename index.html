@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Web Studio</title>
@@ -31,17 +31,19 @@
             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </nav>
-    <!-- розділ hero -->
-    <section class="hero" title="Order a service">
-        <!-- Тут буде стилями реалізований малюнок фону  Header_img.png-->
-        <div class="wrapper">
-            <h1 class="hero-high-text">Эффективные решения для вашего бизнеса</h1>
-            <button class="btn-hero">Заказать услугу</button>
-        </div>
-    </section>
+
+
    </header>
    <!-- Основний контент -->
     <main>
+        <!-- розділ hero -->
+        <section class="hero" title="Order a service">
+            <!-- Тут буде стилями реалізований малюнок фону  Header_img.png-->
+            <div class="wrapper">
+                <h1 class="hero-high-text">Эффективные решения для вашего бизнеса</h1>
+                <button class="btn-hero">Заказать услугу</button>
+            </div>
+        </section>
         <!-- розділ benefits -->
         <section class="benefits" title="Benefits">
             <div class="rectangle1">
@@ -89,19 +91,22 @@
         </section>
         <!-- розділ we-do -->
         <section class="we-do" title="What we do?">
-            <h2>Чем мы занимаемся</h2>
-            <figure>
-                <img src="./images/box1.png" alt="Зображення ноутбука">
-                    <figcaption>Десктопные приложения</figcaption>
-            </figure>
-            <figure>
-                <img src="./images/box2.png" alt="Зображення мобільного">
-                    <figcaption>Мобильные приложения</figcaption>
-            </figure>
-            <figure>
-                <img src="./images/box3.png" alt="Зображення монітора">
-                    <figcaption>Дизайнерские решения</figcaption>
-            </figure>
+            <h2 class="we-do-h-text">Чем мы занимаемся</h2>
+            <div class="we-do-group">
+                <figure class="we-do-fig">
+                    <img src="./images/box1.png" alt="Зображення ноутбука">
+                        <figcaption class="we-do-cap">Десктопные приложения</figcaption>
+                </figure>
+            </div>
+                <figure class="we-do-fig">
+                    <img src="./images/box2.png" alt="Зображення мобільного">
+                        <figcaption>Мобильные приложения</figcaption>
+                </figure>
+                <figure class="we-do-fig">
+                    <img src="./images/box3.png" alt="Зображення монітора">
+                        <figcaption>Дизайнерские решения</figcaption>
+                </figure>
+            
         </section>
         <!-- розділ team -->
         <section class="team" title="Team">
@@ -158,15 +163,16 @@
         <!-- розділ сlients -->
         <section class="clients" title="Clients">
             <h2 class="clients-h-text">Постоянные клиенты</h2>
+            <div class="clients-cont">
             <ul>
-                <li class="clients-card"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/cl_logo1.png" alt="Logo Clients" title="client"></a></li>
-                <li class="clients-card"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/cl_logo2.png" alt="Logo Clients" title="client"></a></li>
-                <li class="clients-card"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/cl_logo3.png" alt="Logo Clients" title="client"></a></li>
-                <li class="clients-card"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/cl_logo4.png" alt="Logo Clients" title="client"></a></li>
-                <li class="clients-card"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/cl_logo5.png" alt="Logo Clients" title="client"></a></li>
-                <li class="clients-card"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/cl_logo6.png" alt="Logo Clients" title="client"></a></li>
+                <li class="clients-card"><div class="clients-logo"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/cl_logo1.png" alt="Logo Clients" title="client"></a></div></li>
+                <li class="clients-card"><div class="clients-logo"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/cl_logo2.png" alt="Logo Clients" title="client"></a></div></li>
+                <li class="clients-card"><div class="clients-logo"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/cl_logo3.png" alt="Logo Clients" title="client"></a></div></li>
+                <li class="clients-card"><div class="clients-logo"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/cl_logo4.png" alt="Logo Clients" title="client"></a></div></li>
+                <li class="clients-card"><div class="clients-logo"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/cl_logo5.png" alt="Logo Clients" title="client"></a></div></li>
+                <li class="clients-card"><div class="clients-logo"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/cl_logo6.png" alt="Logo Clients" title="client"></a></div></li>
             </ul>
-
+            </div>
         </section>
     </main>
 <!-- Нижня частина сайту -->
