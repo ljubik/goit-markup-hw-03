@@ -57,6 +57,11 @@ header {
   width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
+  /* display: flex; */
+}
+
+.flex {
+  display: flex;
 }
 
 .flex-header {
@@ -114,13 +119,12 @@ header {
 }
 
 .hero {
-  /* position: absolute;
+  position: absolute;
   width: 1600px;
-  height: 600px;
+  /* height: 600px; */
   margin-bottom: 94px;
-  left: 0px; */
-  /* top: 80px; */
-  /* background: rgba(47, 48, 58, 0.8); */
+  background: rgba(47, 48, 58, 0.8);
+  /* background-image: url(../images/Header_img.png); */
 }
 
 .wrapper {
