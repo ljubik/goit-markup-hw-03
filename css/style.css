@@ -209,17 +209,34 @@ header {
 }
 
 .we-do-group {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-around;
 }
 
 .we-do-fig figcaption {
   font-size: 14px;
   line-height: 1.143;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.we-do-fig figure {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .team {
   background: var(--bkg-lite-color);
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.container-team {
+  flex-wrap: nowrap;
 }
 
 .we-do-h-text,
@@ -233,26 +250,39 @@ header {
   color: var(--dark-color);
   text-align: center;
   letter-spacing: 0.03em;
-  /* margin-top: 94px;
-  margin-bottom: 50px; */
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .card {
-  /* width: 270px;
-  height: 422px; */
+  width: 270px;
+  /* height: 422px; */
   /* margin-top: 180px;
   margin-bottom: 256px; */
   background: var(--light-color);
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card h3 {
+  /* display: flex; */
+  text-align: center;
 }
 
 .card p {
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 16px;
   line-height: 1.875;
   color: var(--body-color);
+  /* display: flex; */
   text-align: center;
+}
+
+.item-card {
+  /* display: flex; */
+  flex-wrap: nowrap;
 }
 
 .social:hover,
@@ -265,22 +295,29 @@ header {
   letter-spacing: 0.03em;
 }
 
+.clients-cont {
+  display: inline;
+  flex-wrap: nowrap;
+}
+
 .clients-card {
-  /* width: 170px;
-  height: 90px; */
+  width: 170px;
+  height: 90px;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
   position: relative; /* Для центрування */
+  display: flex;
+  flex-direction: row;
 }
 
 .clients-card img {
   /* Центрування в блоці ає бути в батьківському position: relative */
-  /* position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
 }
 
 .clients-card:hover,
