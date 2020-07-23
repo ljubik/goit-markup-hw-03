@@ -119,7 +119,7 @@ header {
 }
 
 .hero {
-  position: absolute;
+  /* position: absolute; */
   width: 1600px;
   /* height: 600px; */
   margin-bottom: 94px;
