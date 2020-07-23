@@ -43,21 +43,16 @@ a:focus {
 }
 
 header {
-  /* width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  margin-top: 24px;
-  margin-bottom: 24px; */
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* display: flex; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex {
@@ -96,6 +91,9 @@ header {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
+
   /* left: 453px;
   top: 32px; */
 }
@@ -103,25 +101,28 @@ header {
 .link-menu {
   display: flex;
   margin-left: 50px;
-  padding-top: 31px;
-  padding-bottom: 31px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link-contact {
   display: flex;
   margin-left: 50px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  /* margin-top: 32px;
+  margin-bottom: 32px; */
+  padding-top: 32px;
+  padding-bottom: 32px;
   flex-direction: row;
 }
 
 .item {
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  margin-right: 50px;
 }
 
 .hero {
   /* position: absolute; */
-  width: 1200px;
+  /* width: 1200px; */
   /* height: 600px; */
   margin-bottom: 94px;
   background: rgba(47, 48, 58, 0.8);
@@ -175,6 +176,7 @@ header {
 .benefits {
   margin-top: 94px;
   /* margin-bottom: 94px; */
+  /* width: calc((100%-30px) / 4); */
 }
 
 .benefits p {
@@ -204,10 +206,12 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  width: calc((100%-30px * 3) / 4);
 }
 
 .img {
   border-style: none;
+  display: block; /* для прибирання пропусків псля інлайн компонентів */
 }
 
 .rectangle1-img {
@@ -216,9 +220,6 @@ header {
   justify-content: center;
   padding: 30px;
   background-color: var(--bkg-lite-color);
-}
-
-.rectangle1 img {
 }
 
 .rectangle1 h3 {
@@ -237,7 +238,8 @@ header {
   display: flex;
   padding-left: 15px;
   padding-right: 15px;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  width: calc((100% - 30px * 2) / 3);
 }
 
 .we-do-fig figcaption {
@@ -245,13 +247,14 @@ header {
   line-height: 1.143;
   text-transform: uppercase;
   text-align: center;
+  margin-right: 15px;
 }
 
-.we-do-fig figure {
+/* .we-do-fig figure {
   display: flex;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 .team {
   background: var(--bkg-lite-color);
@@ -322,6 +325,12 @@ header {
 .clients-cont {
   display: inline;
   flex-wrap: nowrap;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 94px;
 }
 
 .clients-card {
