@@ -198,8 +198,8 @@ header {
   height: 120px;
   left: 215px;
   top: 774px; */
-  display: inline;
-  background: var(--bkg-lite-color);
+  /* display: inline; */
+  /* background: var(--bkg-lite-color); */
   border-radius: 4px;
   display: flex;
   flex-wrap: wrap;
@@ -213,11 +213,12 @@ header {
 .rectangle1-img {
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: var(--bkg-lite-color);
 }
 
-.rectangle1 svg {
-  /* justify-content: center; */
-  align-items: center;
+.rectangle1 img {
 }
 
 .rectangle1 h3 {
