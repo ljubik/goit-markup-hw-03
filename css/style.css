@@ -22,6 +22,7 @@ font-family: 'Roboto', sans-serif; */
   --light-color: #ffffff;
   --footer-bgcolor: #2f303a;
   --bkg-lite-color: #f5f4fa;
+  --bkg-card-color: rgba(47, 48, 58, 0.8);
 }
 
 body {
@@ -234,12 +235,11 @@ header {
 }
 
 .we-do-group {
-  /* position: relative; */
   display: flex;
   padding-left: 15px;
   padding-right: 15px;
   /* justify-content: space-around; */
-  width: calc((100% - 30px * 2) / 3);
+  width: calc(100% - (30px * 2) / 3);
 }
 
 .we-do-fig figcaption {
@@ -250,11 +250,16 @@ header {
   margin-right: 15px;
 }
 
-/* .we-do-fig figure {
+.we-do-cap {
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
-} */
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 28px;
+  padding-top: 28px;
+  justify-content: center;
+  background-color: var(--bkg-card-color);
+  color: var(--light-color);
+}
 
 .team {
   background: var(--bkg-lite-color);
