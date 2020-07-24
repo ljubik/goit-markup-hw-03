@@ -92,9 +92,6 @@ a:focus {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-
-	/* left: 453px;
-  top: 32px; */
 }
 
 .link-menu {
@@ -107,8 +104,6 @@ a:focus {
 .link-contact {
 	display: flex;
 	margin-left: 50px;
-	/* margin-top: 32px;
-  margin-bottom: 32px; */
 	padding-top: 32px;
 	padding-bottom: 32px;
 	flex-direction: row;
@@ -176,10 +171,13 @@ a:focus {
 }
 
 .benefits {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	margin-top: 94px;
 	/* margin-bottom: 94px; */
-	width: calc((100% - 30px) / 4);
-	justify-content: center;
+	width: calc((100% - 30px * 2) / 4);
+	/* justify-content: center; */
 	justify-items: center;
 }
 
@@ -204,6 +202,8 @@ a:focus {
 }
 
 .benefits-item {
+	padding: 10px;
+	margin: 10px;
 }
 
 .rectangle1 {
@@ -250,6 +250,7 @@ a:focus {
 	width: calc(100% - (30px * 2) / 3);
 	margin-left: 10px;
 	margin-right: 15px;
+	margin-bottom: 94px;
 }
 
 .we-do-fig figcaption {
