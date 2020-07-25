@@ -49,8 +49,6 @@ a:focus {
 	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .flex {
@@ -118,7 +116,7 @@ a:focus {
 	/* position: absolute; */
 	/* width: 1200px; */
 	/* height: 600px; */
-	margin-bottom: 94px;
+	padding-bottom: 94px;
 	background: rgba(47, 48, 58, 0.8);
 	/* background-image: url(../images/Header_img.png); */
 }
@@ -171,14 +169,13 @@ a:focus {
 }
 
 .benefits {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	margin-top: 94px;
-	/* margin-bottom: 94px; */
-	width: calc((100% - 30px * 2) / 4);
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* justify-content: space-around; */
+	padding-top: 94px;
+
 	/* justify-content: center; */
-	justify-items: center;
+	/* justify-items: center; */
 }
 
 .benefits p {
@@ -202,20 +199,22 @@ a:focus {
 }
 
 .benefits-item {
-	padding: 10px;
+	/* padding: 10px; */
 	margin: 10px;
+	width: calc((100% - 30px * 2) / 4);
 }
 
 .rectangle1 {
-	/* width: 270px;
-  height: 120px;
-  left: 215px;
-  top: 774px; */
 	border-radius: 4px;
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
-	width: calc((100%-30px * 3) / 4);
+	justify-items: center;
+	/* width: calc((100%-30px * 3) / 4); */
+	background-color: var(--bkg-lite-color);
+	padding-left: 100px;
+	padding-top: 25px;
+	padding-right: 100px;
+	padding-bottom: 25px;
 }
 
 .img {
@@ -227,18 +226,17 @@ a:focus {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 30px;
-	background-color: var(--bkg-lite-color);
 }
 
-.rectangle1 h3 {
-	margin-top: 30px;
-	margin-bottom: 10px;
+.rectangle1-txt {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 30px;
 }
 
 .we-do {
 	font-weight: bold;
-
+	padding-top: 94px;
 	letter-spacing: 0.03em;
 }
 
