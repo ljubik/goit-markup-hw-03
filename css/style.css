@@ -169,13 +169,8 @@ a:focus {
 }
 
 .benefits {
-	/* display: flex; */
-	/* flex-direction: column; */
-	/* justify-content: space-around; */
 	padding-top: 94px;
-
-	/* justify-content: center; */
-	/* justify-items: center; */
+	padding-bottom: 94px;
 }
 
 .benefits p {
@@ -199,7 +194,6 @@ a:focus {
 }
 
 .benefits-item {
-	/* padding: 10px; */
 	margin: 10px;
 	width: calc((100% - 30px * 2) / 4);
 }
@@ -236,7 +230,7 @@ a:focus {
 
 .we-do {
 	font-weight: bold;
-	padding-top: 94px;
+	padding-bottom: 94px;
 	letter-spacing: 0.03em;
 }
 
