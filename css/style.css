@@ -568,28 +568,13 @@ form {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: baseline;
-	justify-content: center;
 }
 
 .gal-card-info {
-	display: flex;
 	flex-wrap: wrap;
-	/* justify-content: flex-start; */
-	/* margin-bottom: 20px;
-	padding: 10px; */
+
 	padding-left: 20px;
 }
-/* 
-.gal-title {
-	display: flex;
-	
-} */
-
-/* .gal-text {
-	display: flex;
-
-	margin-bottom: 20px;
-} */
 
 .card-gallery h2 {
 	font-size: 18px;
