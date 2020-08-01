@@ -110,6 +110,9 @@ header {
 	padding-bottom: 32px;
 	flex-direction: row;
 }
+.link-contact a {
+	color: var(--body-color);
+}
 
 .item {
 	margin-right: 50px;
