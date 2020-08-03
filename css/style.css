@@ -547,7 +547,7 @@ form {
 
 .gallery {
 	display: flex;
-	width: 1170px;
+	width: 1176px;
 	padding-top: 40px;
 }
 
@@ -600,7 +600,9 @@ form {
 
 .gal-item {
 	width: calc((100% - 30px * 2) / 3);
+	/* align-items: center; */
 	margin-bottom: 30px;
+	/* padding: 1px; */
 }
 
 .card-gallery {
