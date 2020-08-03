@@ -131,6 +131,7 @@ header {
 	/* flex-wrap: wrap; */
 	align-items: center;
 	justify-content: center;
+	margin: 0 auto;
 }
 
 .hero-center {
@@ -165,7 +166,8 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* margin-top: 200px; */
+	margin: 0 auto;
+	padding-top: 200px;
 	/* padding-left: 452px;
 	padding-right: 452px; */
 	/* margin-left: 452px;
@@ -175,6 +177,7 @@ header {
 }
 
 .btn-hero {
+	margin: 0 auto;
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 1.875;
