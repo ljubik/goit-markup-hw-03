@@ -129,9 +129,15 @@ header {
 	display: flex;
 	flex-direction: column;
 	/* flex-wrap: wrap; */
+<<<<<<< HEAD
 	/* align-items: center;
 	justify-content: center; */
 	justify-content: space-between;
+=======
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+>>>>>>> 9e94618d5512af4dba4d7c69a39ea1cd4f5892dc
 }
 
 .hero-center {
@@ -155,7 +161,12 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+<<<<<<< HEAD
 	/* margin-top: 200px; */
+=======
+	margin: 0 auto;
+	padding-top: 200px;
+>>>>>>> 9e94618d5512af4dba4d7c69a39ea1cd4f5892dc
 	/* padding-left: 452px;
 	padding-right: 452px; */
 	/* margin-left: 452px;
@@ -165,6 +176,7 @@ header {
 }
 
 .btn-hero {
+	margin: 0 auto;
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 1.875;
@@ -534,7 +546,7 @@ form {
 
 .gallery {
 	display: flex;
-	width: 1200px;
+	width: 1176px;
 	padding-top: 40px;
 }
 
@@ -581,12 +593,15 @@ form {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-top: 50px;
+	/* margin-top: 50px; */
+	/* padding-top: 50px; */
 }
 
 .gal-item {
 	width: calc((100% - 30px * 2) / 3);
+	/* align-items: center; */
 	margin-bottom: 30px;
+	/* padding: 1px; */
 }
 
 .card-gallery {
